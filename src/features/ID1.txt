@@ -1,0 +1,10 @@
+#language: pt
+@run
+Funcionalidade: Fazer uma abertura de um Sinistro
+ 
+  @ID1
+  Cenario: ID1_Fazer abertura de um sinistro
+		Dado o acesso ao Ultron com o login "ID1"
+		E tela de aviso de sinistro foi aberta
+		Quando preencher os dados do fluxo de aviso de sinistro 
+		Entao abertura do Sinistro deve ser realizada
